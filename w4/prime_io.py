@@ -1,11 +1,10 @@
 # learnTogether Week 4
 
 def isPrime_1(num):
-    if num > 1:
-        for i in range(2, num//2 + 2):
-            if (num % i) == 0:
-                return False
-        return True
+    for i in range(2, num//2 + 2):
+        if (num % i) == 0:
+            return False
+    return True
 
 def isPrime_2(num) : 
 
@@ -29,12 +28,12 @@ def getInput(message):
     while True:
         try:
             num = int(input(message))
-            if num >= 0:
+            if num > 1:
                 return num;
         except:
             print ('You have entered an invalid value.')
         else:
-            print('The number must be positive')
+            print('The number must be positive and greater than one.')
 
 while True:
     startNumber = getInput('\nPlease enter an integer number as starting number: ')

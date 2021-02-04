@@ -14,12 +14,9 @@ def getInput(message):
     while True:
         try:
             num = int(input(message))
-            if num >= 0:
-                return num;
+            return num;
         except:
             print ('You have entered an invalid value.')
-        else:
-            print('The number must be positive')
 
 while True:
     number = getInput('\nPlease enter an integer number: ')
