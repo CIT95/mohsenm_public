@@ -1,3 +1,5 @@
+# learnTogether Week 5
+
 # Exercise 6-a: Calling Elements of a Python List (Index 0)
 # - Assign the first element of the list to answer_1 
 lst = [11, 100, 99, 1000, 999]
