@@ -99,7 +99,7 @@ print('Expected Result :', reverse_string(str))
 
 
 # https://www.w3resource.com/python-exercises/string/
-# 20. 57.Write a Python program to remove spaces from a given string.
+# 57.Write a Python program to remove spaces from a given string.
 def remove_spaces_string(str):
     return str.replace(' ', '')
 
